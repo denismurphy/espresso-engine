@@ -36,7 +36,7 @@ This function reads the temperature sensor and returns the temperature.
 This function returns the current state of the coffee machine.
 
 ## Note
-Keep in mind that this is a code to hypothetical coffee machine, the specific hardware and wiring of your coffee machine will vary and will require additional configuration and error handling. Safety and reliability should also be considered when working with electrical equipment.
+Keep in mind that this code is designed for a hypothetical coffee machine, the specific hardware and wiring of your coffee machine will vary and will require additional configuration and error handling. Safety and reliability should also be considered when working with electrical equipment.
 
 ## Contributions
 Feel free to make contributions to this repository. If you have any improvements or bug fixes, please open a pull request. If you have any questions or issues, please open an issue and I will do my best to help you.
