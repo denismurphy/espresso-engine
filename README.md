@@ -1,3 +1,4 @@
+![EspressoEngine](https://github.com/denismurphy/espresso-engine/blob/main/engine_coffee.svg?raw=true)
 # EspressoEngine:  Arduino-ESP32 based smart coffee machine
 
 EspressoEngine can be used with an Arduino and an ESP32 to control a coffee machine. This code provides an interface for controlling various functions of the coffee machine, such as the clean cycle, coffee grinding, pulling a shot, activating the milk wand, and activating the hot water dispenser.
