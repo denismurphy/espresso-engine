@@ -2,22 +2,6 @@
 
 EspressoEngine can be used with an Arduino and an ESP32 to control a coffee machine. This code provides an interface for controlling various functions of the coffee machine, such as the clean cycle, coffee grinding, pulling a shot, activating the milk wand, and activating the hot water dispenser.
 
-## Getting Started
-
-1. Clone the repository
-
-2. Open the code in the Arduino IDE
-
-3. Connect your ESP32 to your computer via USB
-
-4. Select the correct board and port in the Arduino IDE
-
-5. Upload the code to the ESP32
-
-6. Connect your ESP32 to the coffee machine's hardware according to the pin definitions in the `coffee_machine.h` file
-
-7. Test the code by calling the various functions and observing the coffee machine's behavior
-
 ## Code Overview
 The code includes a header file `coffee_machine.h` and an implementation file `coffee_machine.c`
 
