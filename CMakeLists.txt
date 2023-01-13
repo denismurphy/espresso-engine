@@ -8,4 +8,4 @@ include_directories(.)
 add_executable(espresso_engine
         coffee_machine.c
         coffee_machine.h
-        library.h library.h)
+        library.h)
