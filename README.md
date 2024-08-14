@@ -1,50 +1,64 @@
 ![EspressoEngine](https://github.com/denismurphy/espresso-engine/blob/main/image/engine_coffee.svg?raw=true)
-## EspressoEngine:  Arduino-ESP32 based smart coffee machine
 
-EspressoEngine can be used with an Arduino and an ESP32 to control a coffee machine. This code provides an interface for controlling various functions of the coffee machine, such as the clean cycle, coffee grinding, pulling a shot, activating the milk wand, and activating the hot water dispenser.
+# ☕ EspressoEngine: Arduino-ESP32 Smart Coffee Machine Controller
 
-## Code Overview
-The code includes a header file `coffee_machine.h` and an implementation file `coffee_machine.c`
+EspressoEngine is an innovative project that transforms your ordinary coffee machine into a smart, programmable marvel using Arduino and ESP32! ✨
 
-### `coffee_machine.h`
-This file contains constants for the coffee machine's pins and an enum for the coffee machine's states. It also includes function prototypes for initializing the coffee machine, starting the clean cycle, grinding coffee, pulling a shot, activating the milk wand, activating the hot water dispenser, checking the temperature and getting the current state of the coffee machine.
+## 🚀 Features
 
-### `coffee_machine.c`
-This file contains the implementation of the functions declared in the header file. The `coffee_machine_init()` function is used to set the coffee machine's pins to output mode, and initialize the current state to IDLE.
+- 🧼 Automated clean cycle
+- ☕ Precise coffee grinding control
+- 🎯 Perfect shot pulling
+- 🥛 Milk wand activation
+- 🚰 Hot water dispensing
+- 🌡️ Temperature monitoring
+- 📊 Real-time state tracking
 
-### `coffee_machine_init()`
-This function sets the coffee machine's pins to output mode, and initialize the current state to IDLE.
+## 💻 Code Overview
 
-### `start_clean_cycle()`
-This function performs any necessary actions to start the clean cycle, e.g. turning on a cleaning solenoid valve for a certain amount of time, and updates the current state to CLEANING.
+Our project consists of two main files:
 
-### `grind_coffee()`
-This function performs any necessary actions to grind coffee, e.g. turning on a grinder motor, and updates the current state to GRINDING.
+### 📄 `coffee_machine.h`
 
-### `pull_shot()`
-This function performs any necessary actions to pull a shot, e.g. turning on a pump to apply pressure to the coffee grounds, and updates the current state to PULLING.
+This header file is the blueprint of our coffee machine's brain, containing:
 
-### `activate_milk_wand()`
-This function performs any necessary actions to activate the milk wand, e.g. turning on a solenoid valve to let the milk flow.
+- 🔢 Pin constants
+- 🔀 State enumerations
+- 📝 Function prototypes
 
-### `activate_hot_water_dispenser()`
-This function performs any necessary actions to activate the hot water dispenser, e.g. turning on a solenoid valve to let the water flow.
+### 📄 `coffee_machine.c`
 
-### `check_temperature()`
-This function reads the temperature sensor and returns the temperature.
+This is where the magic happens! Key functions include:
 
-### `get_current_state()`
-This function returns the current state of the coffee machine.
+- `coffee_machine_init()`: 🔌 Powers up your coffee machine
+- `start_clean_cycle()`: 🧼 Keeps your machine sparkling clean
+- `grind_coffee()`: ⚙️ Grinds your beans to perfection
+- `pull_shot()`: ☕ Extracts that liquid gold
+- `activate_milk_wand()`: 🥛 Froths milk like a pro
+- `activate_hot_water_dispenser()`: 🚰 Dispenses hot water on demand
+- `check_temperature()`: 🌡️ Ensures optimal brewing temperature
+- `get_current_state()`: 📊 Keeps you informed of the machine's status
 
-## Note
-Keep in mind that this code is designed for a hypothetical coffee machine, the specific hardware and wiring of your coffee machine will vary and will require additional configuration and error handling. Safety and reliability should also be considered when working with electrical equipment.
+## ⚠️ Important Note
 
-## Contributions
-Feel free to make contributions to this repository. If you have any improvements or bug fixes, please open a pull request. If you have any questions or issues, please open an issue and I will do my best to help you.
+This code is designed for a hypothetical coffee machine. Your specific hardware may require additional configuration and safety measures. Always prioritize safety when working with electrical equipment! ⚡
 
-## Authors
+## 🤝 Contributions
 
--   **Denis Murphy**
+We love your input! We want to make contributing to this project as easy and transparent as possible. If you have any brilliant ideas or improvements:
 
-## License
-This code is licensed under the MIT License.
+1. 🍴 Fork the repo
+2. 🌿 Create your feature branch
+3. 💾 Commit your changes
+4. 🚀 Push to the branch
+5. 🎉 Create a new Pull Request
+
+If you encounter any issues or have questions, please open an issue. We're here to help! 💪
+
+## 👨‍💻 Authors
+
+- **Denis Murphy** - *Initial work* - [DenisMurphy](https://github.com/denismurphy)
+
+## 📜 License
+
+This project is caffeinated under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
