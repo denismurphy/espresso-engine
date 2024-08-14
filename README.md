@@ -57,7 +57,7 @@ If you encounter any issues or have questions, please open an issue. We're here 
 
 ## 👨‍💻 Authors
 
-- **Denis Murphy** - *Initial work* - [DenisMurphy](https://github.com/denismurphy)
+- **Denis Murphy**
 
 ## 📜 License
 
