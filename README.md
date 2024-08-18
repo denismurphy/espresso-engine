@@ -33,10 +33,6 @@ Key functions include:
 
 This code is designed for a hypothetical prototype coffee machine. Your specific hardware may require additional configuration and safety measures.
 
-## 👨‍💻 Authors
-
-- **Denis Murphy**
-
 ## 📜 License
 
 This project is caffeinated under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
